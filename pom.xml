@@ -81,7 +81,7 @@
                     <transformers>
                         <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                             <manifestEntries>
-                                <Main-Class>${app.main.class}</Main-Class>
+                                <Main-Class>edu.usfca.cs.nam.extract.NetCDFToText</Main-Class>
                                 <X-Compile-Source-JDK>${maven.compile.source}</X-Compile-Source-JDK>
                                 <X-Compile-Target-JDK>${maven.compile.target}</X-Compile-Target-JDK>
                             </manifestEntries>
